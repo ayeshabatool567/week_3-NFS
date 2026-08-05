@@ -1,0 +1,35 @@
+# RAG Project Summary
+
+## Document Used
+
+Resume.pdf
+
+## Questions Asked
+
+1. What programming languages are listed?
+2. Which projects are mentioned?
+3. Which university is attended?
+4. What technical skills are included?
+5. Which certifications are mentioned?
+
+## Hallucination Test
+
+Question:
+
+"What is my favorite food?"
+
+Result:
+
+The system correctly responded that the information was not found in the document.
+
+## Comparison
+
+Without RAG:
+The AI guessed answers based on general knowledge.
+
+With RAG:
+The AI answered using only the uploaded PDF, making responses more accurate and reducing hallucinations.
+
+## Conclusion
+
+RAG significantly improves response quality by grounding the model in document content instead of relying solely on its pre-trained knowledge.
