@@ -1,0 +1,28 @@
+TEST INPUT 1:
+Hello, I am Ali.
+My email is ali123@gmail.com.
+I forgot my password.
+Please help urgently.
+
+RESULT:
+{
+  "name": "Ali",
+  "email": "ali123@gmail.com",
+  "issue_type": "Password Reset",
+  "urgency": "High",
+  "summary": "User forgot password and needs urgent assistance."
+}
+
+TEST INPUT 2:
+Hi,
+My package is damaged.
+Email: sara@gmail.com
+
+RESULT:
+{
+  "name": null,
+  "email": "sara@gmail.com",
+  "issue_type": "Damaged Product",
+  "urgency": "Medium",
+  "summary": "Customer received a damaged package."
+}
